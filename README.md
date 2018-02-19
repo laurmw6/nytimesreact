@@ -1,1 +1,1 @@
-# nytimesreact
+# mern-activity
