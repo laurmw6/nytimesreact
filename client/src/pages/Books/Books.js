@@ -58,9 +58,9 @@ class Books extends Component {
       <Container fluid>
         <Row>
           <Col size="md-6">
-            <Jumbotron>
+            {/* <Jumbotron>
               <h1>What Books?</h1>
-            </Jumbotron>
+            </Jumbotron> */}
             <form>
               <Input
                 value={this.state.title}
@@ -89,9 +89,9 @@ class Books extends Component {
             </form>
           </Col>
           <Col size="md-6 sm-12">
-            <Jumbotron>
+            {/* <Jumbotron>
               <h1>Books On My List</h1>
-            </Jumbotron>
+            </Jumbotron> */}
             {this.state.books.length ? (
               <List>
                 {this.state.books.map(book => (

@@ -7,12 +7,23 @@
     font-weight: 1px;
 }
 
-.nav-wrapper {
+.navbar {
     vertical-align: middle !important;
     height: 65px;
     line-height: 65px;
     margin: 0px;
     background-color: #00BFFF !important;
+    border-color: #00BFFF !important;
+    text-align: center;
+}
+
+a.navbar-brand {
+    background-color: #00BFFF !important;
+    border-color: #00BFFF !important;
+}
+
+.jumbotron-subheader {
+    text-align: center;
 }
 
 .site-title {

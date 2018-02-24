@@ -1,19 +1,10 @@
 import React from "react";
 
 const Nav = () =>
-  <nav className="navbar navbar-inverse navbar-top">
-    <div className="container-fluid">
-      <div className="navbar-header">
-        <button type="button" className="collapsed navbar-toggle">
-          <span className="sr-only">Toggle navigation</span>
-          <span className="icon-bar" /> <span className="icon-bar" />
-          <span className="icon-bar" />
-        </button>
-        <a href="/" className="navbar-brand">
-          NY Times React Scraper
-        </a>
-      </div>
-    </div>
-  </nav>;
+  <div className="jumbotron">
+    <h1>New York Times Article Scrubber</h1>
+    <p className="jumbotron-subheader">Search for and annotate articles of interest!</p>
+  </div>
+
 
 export default Nav;
